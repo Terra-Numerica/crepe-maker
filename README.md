@@ -5,6 +5,5 @@ pnpm or npm run dev
 
 pnpm or npm run build
 
-# In production
-
+# In productions
 static files are located in dist folder
