@@ -214,7 +214,7 @@ function initCrepes() {
     group.clear()
     restart_table = []
     table = []
-
+    number_of_flips.value = 0
     if (crepes.length > 0) {
         for (let i = 0; i < crepes.length; i++) {
             crepes[i].geometry.dispose()
@@ -284,7 +284,7 @@ function addCrepe() {
             crepes[i].geometry.dispose()
             scene.remove(crepes[i])
         }
-        number_of_flips.value = 0
+        
         table = []
         crepes = []
         crepes.length = 0
@@ -303,7 +303,7 @@ function removeCrepe() {
             crepes[i].geometry.dispose()
             scene.remove(crepes[i])
         }
-        number_of_flips.value = 0
+     
         table = []
         crepes = []
         crepes.length = 0
