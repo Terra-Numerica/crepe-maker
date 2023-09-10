@@ -284,6 +284,7 @@ function addCrepe() {
             crepes[i].geometry.dispose()
             scene.remove(crepes[i])
         }
+        number_of_flips.value = 0
         table = []
         crepes = []
         crepes.length = 0
@@ -302,6 +303,7 @@ function removeCrepe() {
             crepes[i].geometry.dispose()
             scene.remove(crepes[i])
         }
+        number_of_flips.value = 0
         table = []
         crepes = []
         crepes.length = 0
